@@ -5,6 +5,7 @@ require_once '/../source/Users.php';
 class UsersTest extends PHPUnit_Framework_TestCase 
 {
 
+
 	private $file_users = 'usuarios.txt';
 	private $users;
 
@@ -12,7 +13,11 @@ class UsersTest extends PHPUnit_Framework_TestCase
 
 	protected function tearDown()
 	{		
-		unlink($this->file_users);	
+		if (file_exists($this->file_users))	
+		{
+			unlink($this->file_users);
+		}
+		
 	}
 
 	public function testCountUsers() 
@@ -23,13 +28,13 @@ class UsersTest extends PHPUnit_Framework_TestCase
 		file_put_contents($this->file_users, $str);
 
 		$users = new Users($this->file_users);
-		$this->assertEquals($users->count(), 2 );	
+		$this->assertEquals($users->countUsers(), 2 );	
 		$this->assertEquals($users->countUsersLogin(), 0 );	
 
 	}
 
 
-	public function testFindUser() 
+	public function testExistUser() 
 	{				
 		
 		$str = 	'johni:123456' .  PHP_EOL .
@@ -39,9 +44,10 @@ class UsersTest extends PHPUnit_Framework_TestCase
 
 		$users = new Users($this->file_users);
 
-		$this->assertEquals($users->userExists('johni'), true);
-		$this->assertEquals($users->userExists('douglas'), false);
-		$this->assertEquals($users->userExists('marangon'), true);
+		$this->assertEquals($users->existUser('johni'), true);
+		$this->assertEquals($users->existUser('douglas'), false);
+		$this->assertEquals($users->existUser('marangon'), true);
+
 	}	
 
 
@@ -52,7 +58,7 @@ class UsersTest extends PHPUnit_Framework_TestCase
 				'marangon:321654' .  PHP_EOL;		
 		file_put_contents($this->file_users, $str);
 		
-		file_put_contents('../config/userslogin', 'johni');
+		file_put_contents( FILE_USERS_LOGIN, 'johni');
 
 		$users = new Users($this->file_users);
 
@@ -63,7 +69,50 @@ class UsersTest extends PHPUnit_Framework_TestCase
 		$this->assertEquals($users->listUsers(), $arr );
 		$this->assertEquals($users->countUsersLogin(), 1 );	
 
-		unlink('../config/userslogin');
+		unlink( FILE_USERS_LOGIN);
+		
+	}
+
+
+	public function testAddUser() 
+	{
+
+		if (file_exists($this->file_users))	{
+			unlink($this->file_users);
+		}
+
+		$users = new Users($this->file_users);
+		
+		$users->addUser('johni', '123456', true);
+		$users->addUser('marangon', '321654', false);
+
+		$arr = array(
+			0 => array('name' => 'johni', 'password' => '123456', 'login' => true),
+			1 => array('name' => 'marangon', 'password' => '321654', 'login' => false) );
+
+		$this->assertEquals($users->listUsers(), $arr );
+
+		unlink( FILE_USERS_LOGIN);
+
+	}
+
+
+	public function testRemoveUser()
+	{
+
+		$str = 	'johni:123456' .  PHP_EOL .
+				'marangon:321654' .  PHP_EOL;	
+
+		file_put_contents($this->file_users, $str);
+
+		$users = new Users($this->file_users);
+
+		$users->addUser('douglas', '321654', false);
+		$users->removeUser('douglas');
+
+		$this->assertEquals($users->existUser('johni'), true);
+		$this->assertEquals($users->existUser('marangon'), true);
+		$this->assertEquals($users->existUser('douglas'), false);
 	}
 }
 

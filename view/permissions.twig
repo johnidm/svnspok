@@ -1,0 +1,26 @@
+{% extends 'layout.twig' %}
+
+{% block titulo %} 
+	Usuarios 
+{% endblock %}
+
+{% block conteudo %} 
+
+	{% for permission in permissions %}
+
+		<h2>{{ permission.projet }}</h2>
+
+	    {% for user in permission %}
+	        <h4>{{ user.name }}</h4>
+	    {% else %}
+	    	<h4>Usuario nao cadastrados para esse projeto</h4>
+	    {% endfor %}
+
+	{% else %}		
+		<h2>Nenhum projeto cadastrado</h3>
+	{% endfor %}
+
+	<a href='/index'>Index</a>
+	
+
+{% endblock %}

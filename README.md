@@ -1,9 +1,12 @@
-svnspok
+##svnspok
 =======
 
 Is a simple adminstrador SVN based in interface.
 
-Write in PHP using TDD.
+Write in PHP using:
+- TDD
+- Twig
+- Composer
 
 Features:
 - Create SVN project.
