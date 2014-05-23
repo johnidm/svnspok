@@ -90,7 +90,7 @@ class Users
 	}
 
 	public function existUsers() {
-		result $this->countUsers != 0;
+		return $this->countUsers() != 0;
 	}
 
 	private function filterUser($name)
