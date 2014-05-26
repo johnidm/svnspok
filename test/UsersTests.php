@@ -96,6 +96,30 @@ class UsersTest extends PHPUnit_Framework_TestCase
 
 	}
 
+	public function testAddHimSelfUser() 
+	{
+
+		if (file_exists($this->file_users))	{
+			unlink($this->file_users);
+		}
+
+		$users = new Users($this->file_users);
+		
+		$users->addUser('johni', '123456', true);
+		$users->addUser('johni', '9999', true);
+		$users->addUser('marangon', '321654', false);
+		
+
+		$arr = array(			
+			1 => array('name' => 'johni', 'password' => '9999', 'login' => true), 
+			2 => array('name' => 'marangon', 'password' => '321654', 'login' => false) );
+
+		$this->assertEquals($users->listUsers(), $arr );
+
+		unlink( FILE_USERS_LOGIN);
+
+	}
+
 
 	public function testRemoveUser()
 	{
@@ -113,6 +137,34 @@ class UsersTest extends PHPUnit_Framework_TestCase
 		$this->assertEquals($users->existUser('johni'), true);
 		$this->assertEquals($users->existUser('marangon'), true);
 		$this->assertEquals($users->existUser('douglas'), false);
+	}
+
+	public function testFindDataUser()
+	{
+
+		$str = 	'johni:123456' .  PHP_EOL;	
+
+		file_put_contents($this->file_users, $str);
+
+		$users = new Users($this->file_users);
+
+		$users->addUser('douglas', '321654', false);
+		
+		$find = $users->findDataUser('johni');
+
+		$this->assertEquals($find['name'], 'johni');
+		$this->assertEquals($find['password'], 123456);
+		$this->assertEquals($find['login'], false);
+	}
+
+
+	public function findDataUser($username) {
+		$array = $this->filterUser($username);
+
+		foreach($array as $user): 		
+			return $this->mountArray($user['name'], $user['password'], $user['login']);		
+		endforeach;
+
 	}
 }
 

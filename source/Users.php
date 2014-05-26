@@ -20,10 +20,16 @@ class Users
 
 	}
 
+	private function mountArray($user, $passwod, $login) {
+		return array(
+			'name' => $user, 
+			'password' => $passwod, 
+			'login' => $login );
+	}
 
 	private function postUser($user, $passwod, $login)
 	{
-		$arr = array('name' => $user, 'password' => $passwod, 'login' => $login ) ;
+		$arr = $this->mountArray($user, $passwod, $login);
 		  			
 		array_push( $this->users, $arr );
 	}
@@ -103,6 +109,15 @@ class Users
  		return $array;		
 	}
 
+	public function findDataUser($username) {
+		$array = $this->filterUser($username);
+
+		foreach($array as $user): 		
+			return $this->mountArray($user['name'], $user['password'], $user['login']);		
+		endforeach;
+
+	}
+
 	public function existUser($name) 
 	{
 		return count($this->filterUser($name)) != 0;
@@ -115,6 +130,11 @@ class Users
 
 	public function addUser($user, $password, $login) 
 	{				
+
+		if ($this->existUser($user)) {
+ 			$this->removeUser($user);				 			 			
+		}
+
 		$this->postUser($user, $password, $login);
 
 		$this->persistUsersInFile();
