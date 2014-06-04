@@ -1,7 +1,7 @@
 ##svnspok
 =======
 
-Is a simple adminstrador SVN based in interface.
+It's a simple administrador SVN based in interface.
 
 Write in PHP using:
 - TDD
