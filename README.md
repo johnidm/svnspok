@@ -7,6 +7,8 @@ Write in PHP using:
 - TDD
 - Twig
 - Composer
+- HTML5
+- CSS3
 
 Features:
 - Create SVN project.
