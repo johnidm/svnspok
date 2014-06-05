@@ -22,8 +22,8 @@ class UsersTest extends PHPUnit_Framework_TestCase
 
 	public function testCountUsers() 
 	{					
-		$str = 	'johni:123456' .  PHP_EOL .
-				'marangon:321654' .  PHP_EOL;	
+		$str = 	'johni:123456' .  "\n" .
+				'marangon:321654' . "\n";	
 	
 		file_put_contents($this->file_users, $str);
 
@@ -37,8 +37,8 @@ class UsersTest extends PHPUnit_Framework_TestCase
 	public function testExistUser() 
 	{				
 		
-		$str = 	'johni:123456' .  PHP_EOL .
-				'marangon:321654' .  PHP_EOL;	
+		$str = 	'johni:123456' .  "\n" .
+				'marangon:321654' .  "\n";	
 
 		file_put_contents($this->file_users, $str);
 
@@ -54,8 +54,8 @@ class UsersTest extends PHPUnit_Framework_TestCase
 
 	public function testListUsers()
 	{		
-		$str = 	'johni:123456' .  PHP_EOL .
-				'marangon:321654' .  PHP_EOL;		
+		$str = 	'johni:123456' . "\n" .
+				'marangon:321654' . "\n";		
 		file_put_contents($this->file_users, $str);
 		
 		file_put_contents( FILE_USERS_LOGIN, 'johni');
@@ -124,8 +124,8 @@ class UsersTest extends PHPUnit_Framework_TestCase
 	public function testRemoveUser()
 	{
 
-		$str = 	'johni:123456' .  PHP_EOL .
-				'marangon:321654' .  PHP_EOL;	
+		$str = 	'johni:123456' .  "\n" .
+				'marangon:321654' .  "\n";	
 
 		file_put_contents($this->file_users, $str);
 
@@ -142,7 +142,7 @@ class UsersTest extends PHPUnit_Framework_TestCase
 	public function testFindDataUser()
 	{
 
-		$str = 	'johni:123456' .  PHP_EOL;	
+		$str = 	'johni:123456' .  "\n";	
 
 		file_put_contents($this->file_users, $str);
 

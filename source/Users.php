@@ -45,7 +45,7 @@ class Users
 
  		foreach($this->users as $user): 
 		
-			$data = $user['name'] . ':' . $user['password'] . PHP_EOL;
+			$data = $user['name'] . ':' . $user['password'] . "\n";
 			post_data_in_file($this->file, $data);
 
 			if ( $user['login'] ) 
@@ -64,12 +64,13 @@ class Users
 
 
 		if (file_exists(FILE_USERS_LOGIN)) {
-			$this->loginUsers = explode(PHP_EOL, file_get_contents( FILE_USERS_LOGIN) );		
+			$this->loginUsers = explode("\n", file_get_contents( FILE_USERS_LOGIN) );		
 		};		
 
 		if (file_exists($file)) 
 		{
-			$users = explode(PHP_EOL, file_get_contents($file) );					
+			$users = explode( "\n", file_get_contents($file) );			
+	
 
 			foreach($users as $index=>$user): 
 
