@@ -1,0 +1,1742 @@
+[MsysEstoque:/]
+ezequiel = r
+oneide = w
+
+[Elcana:/]
+ilsonei = rw
+johni = rw
+
+[MsysBPM:/]
+ezequiel = rw
+luciano = rw
+
+[MsysFiscalService:/]
+maciel = rw
+johni = rw
+ezequiel = rw
+oneide = r
+sadi = rw
+
+[MDFe:/]
+maciel = rw
+
+[ArteMicrosys:/]
+oneide = rw
+alexandre = rw
+
+[BestDistribuidora:/]
+johni = rw
+
+[MsysAnimais:/]
+johni = rw
+
+[projetos:/]
+rafael = rw
+paulo = rw
+ezequiel = rw
+everton = rw
+ilsonei = rw
+robson = rw
+oneide = rw
+luciano = rw
+johni = rw
+
+
+[Csm:/]
+rafael = rw
+paulo = rw
+ezequiel = rw
+everton = rw
+ilsonei = rw
+robson = rw
+oneide = rw
+luciano = rw
+sadi = rw
+luiz = rw
+johni = rw
+
+
+[WebAvioeste:/]
+paulo = rw
+robson = rw
+johni = rw
+
+
+[WebCristalFlex:/]
+paulo = rw
+robson = rw
+johni = rw
+
+
+[WebRotoplast:/]
+paulo = rw
+robson = rw
+
+
+[WebKitimar:/]
+paulo = rw
+robson = rw
+johni = rw
+
+
+[WebRealce:/]
+paulo = rw
+robson = rw
+johni = rw
+
+
+[WebFrigovale:/]
+paulo = rw
+robson = rw
+oneide = rw
+johni = rw
+
+
+[WebCordilat:/]
+paulo = rw
+robson = rw
+oneide = rw
+everton = r
+johni = rw
+
+
+[WebTecsystem:/]
+paulo = rw
+robson = rw
+oneide = rw
+johni = rw
+
+
+[Movel_RecolhaLeite:/]
+oneide = rw
+johni = rw
+
+
+[Movel_Cordilat:/]
+oneide = rw
+johni = rw
+
+
+[Movel_Frigovale:/]
+oneide = rw
+johni = rw
+
+
+[Movel_Marx:/]
+oneide = rw
+johni = rw
+
+
+[Movel_Tapi:/]
+oneide = rw
+johni = rw
+
+
+[Movel_Tecsystem:/]
+oneide = rw
+johni = rw
+
+
+[OliveiraLojas:/]
+rafael = rw
+ezequiel = rw
+everton = rw
+ilsonei = rw
+luciano = rw
+paulo = rw
+robson = rw
+oneide = rw
+luiz = rw
+sadi = rw
+johni = rw
+
+
+[Holz:/]
+rafael = rw
+ezequiel = rw
+everton = rw
+ilsonei = rw
+luciano = rw
+paulo = rw
+robson = rw
+oneide = rw
+sadi = rw
+luiz = rw
+evandro = rw
+maciel = rw
+johni = rw
+
+
+[WebBrasplast:/]
+oneide = rw
+alexandre = rw
+johni = rw
+
+
+[FmPneus:/]
+rafael = rw
+paulo = rw
+ezequiel = rw
+everton = rw
+ilsonei = rw
+robson = rw
+oneide = rw
+luciano = rw
+sadi = rw
+luiz = rw
+johni = rw
+
+
+[Msys20:/]
+rafael = rw
+paulo = rw
+johni = rw
+
+
+[MsysMercado:/]
+rafael = rw
+paulo = rw
+ezequiel = rw
+everton = rw
+ilsonei = rw
+robson = rw
+oneide = rw
+luciano = rw
+sadi = rw
+luiz = rw
+evandro = rw
+maciel = rw
+johni = rw
+
+
+[AgricolaTerra:/]
+rafael = rw
+paulo = rw
+ezequiel = rw
+everton = rw
+ilsonei = rw
+robson = rw
+oneide = rw
+luciano = rw
+sadi = rw
+johni = rw
+
+
+[BomFrio:/]
+rafael = rw
+paulo = rw
+ezequiel = rw
+everton = rw
+ilsonei = rw
+robson = rw
+oneide = rw
+luciano = rw
+luiz = rw
+sadi = rw
+evandro = rw
+maciel = rw
+johni = rw
+
+[Alcast:/]
+rafael = rw
+paulo = rw
+ezequiel = rw
+everton = rw
+ilsonei = rw
+robson = rw
+oneide = rw
+luciano = rw
+johni = rw
+
+
+[Angelira:/]
+rafael = rw
+paulo = rw
+ezequiel = rw
+everton = rw
+ilsonei = rw
+robson = rw
+oneide = rw
+luciano = rw
+sadi = rw
+luiz = rw
+johni = rw
+
+
+[CerealistaMarx:/]
+rafael = rw
+paulo = rw
+ezequiel = rw
+everton = rw
+ilsonei = rw
+robson = rw
+oneide = rw
+luciano = rw
+sadi = rw
+johni = rw
+
+[CNA:/]
+ezequiel = rw
+everton = rw
+ilsonei = rw
+oneide = rw
+luciano = rw
+luiz = rw
+sadi = rw
+evandro = rw
+johni = rw
+
+[CnaRep:/]
+rafael = rw
+paulo = rw
+ezequiel = rw
+everton = rw
+ilsonei = rw
+robson = rw
+oneide = rw
+luciano = rw
+sadi = rw
+luiz = rw
+johni = rw
+
+
+[Comercial:/]
+rafael = rw
+paulo = rw
+ezequiel = rw
+everton = rw
+ilsonei = rw
+robson = rw
+oneide = rw
+luciano = rw
+sadi = rw
+luiz = rw
+johni = rw
+
+[Animais:/]
+rafael = rw
+paulo = rw
+ezequiel = rw
+everton = rw
+ilsonei = rw
+robson = rw
+oneide = rw
+luciano = rw
+sadi = rw
+luiz = rw
+johni = rw
+
+
+[Concreoeste:/]
+rafael = rw
+paulo = rw
+ezequiel = rw
+everton = rw
+ilsonei = rw
+robson = rw
+oneide = rw
+luciano = rw
+sadi = rw
+luiz = rw
+evandro = rw
+johni = rw
+
+
+[ContaCorrente:/]
+rafael = rw
+paulo = rw
+ezequiel = rw
+everton = rw
+ilsonei = rw
+robson = rw
+oneide = rw
+luciano = rw
+
+
+[ContaCorrente2:/]
+rafael = rw
+paulo = rw
+ezequiel = rw
+everton = rw
+ilsonei = rw
+robson = rw
+oneide = rw
+luciano = rw
+
+
+[Copema:/]
+rafael = rw
+paulo = rw
+ezequiel = rw
+everton = rw
+ilsonei = rw
+robson = rw
+oneide = rw
+luciano = rw
+sadi = rw
+luiz = rw
+maciel = rw
+johni = rw
+johni = rw
+
+[Cordilat:/]
+rafael = rw
+paulo = rw
+ezequiel = rw
+everton = rw
+ilsonei = rw
+robson = rw
+oneide = rw
+luciano = rw
+sadi = rw
+luiz = rw
+evandro = rw
+maciel = rw
+
+
+[CristalFlex:/]
+rafael = rw
+paulo = rw
+ezequiel = rw
+everton = rw
+ilsonei = rw
+robson = rw
+oneide = rw
+sadi = rw
+luiz = rw
+luciano = rw
+
+
+[ErvaDaninha:/]
+rafael = rw
+paulo = rw
+ezequiel = rw
+everton = rw
+ilsonei = rw
+robson = rw
+oneide = rw
+luciano = rw
+luiz = rw
+sadi = rw
+
+
+[EspiritoSanto:/]
+rafael = rw
+paulo = rw
+ezequiel = rw
+everton = rw
+ilsonei = rw
+robson = rw
+oneide = rw
+luciano = rw
+luiz = rw
+sadi = rw
+
+
+[ExportacaoNew:/]
+rafael = rw
+paulo = rw
+ezequiel = rw
+everton = rw
+ilsonei = rw
+robson = rw
+oneide = rw
+luciano = rw
+
+
+[Factoring:/]
+rafael = rw
+paulo = rw
+ezequiel = rw
+everton = rw
+ilsonei = rw
+robson = rw
+oneide = rw
+luciano = rw
+
+
+[FactoringValeOeste:/]
+rafael = rw
+paulo = rw
+ezequiel = rw
+everton = rw
+ilsonei = rw
+robson = rw
+oneide = rw
+luciano = rw
+johni = rw
+
+[FactoringFabris:/]
+rafael = rw
+paulo = rw
+ezequiel = rw
+everton = rw
+ilsonei = rw
+robson = rw
+oneide = rw
+luciano = rw
+johni = rw
+
+[Estoque:/]
+rafael = rw
+paulo = rw
+ezequiel = rw
+everton = rw
+ilsonei = rw
+robson = rw
+oneide = rw
+luciano = rw
+
+
+[Folle:/]
+rafael = rw
+paulo = rw
+ezequiel = rw
+everton = rw
+ilsonei = rw
+robson = rw
+oneide = rw
+luciano = rw
+luiz = rw
+sadi = rw
+
+
+[Gateway:/]
+rafael = rw
+paulo = rw
+ezequiel = rw
+everton = rw
+ilsonei = rw
+robson = rw
+oneide = rw
+luciano = rw
+johni = rw
+
+[GerenciadorEstoqueBomFrio:/]
+rafael = rw
+paulo = rw
+ezequiel = rw
+everton = rw
+ilsonei = rw
+robson = rw
+oneide = rw
+luciano = rw
+johni = rw
+
+[GerenciadorEstoqueLocais:/]
+rafael = rw
+paulo = rw
+ezequiel = rw
+everton = rw
+ilsonei = rw
+robson = rw
+luciano = rw
+oneide = rw
+luiz = rw
+sadi = rw
+johni = rw
+
+[GerenciadorOliveira:/]
+rafael = rw
+paulo = rw
+ezequiel = rw
+everton = rw
+ilsonei = rw
+robson = rw
+oneide = rw
+luciano = rw
+johni = rw
+
+[GerenciadorEstoqueIBX:/]
+rafael = rw
+paulo = rw
+ezequiel = rw
+everton = rw
+ilsonei = rw
+robson = rw
+oneide = rw
+luciano = rw
+johni = rw
+
+[GerenciadorEstoqueIBX_Padrao:/]
+rafael = rw
+paulo = rw
+ezequiel = rw
+everton = rw
+ilsonei = rw
+robson = rw
+oneide = rw
+luciano = rw
+johni = rw
+
+[GerenciadorEstoqueIBX_SemFiliais:/]
+rafael = rw
+paulo = rw
+ezequiel = rw
+everton = rw
+ilsonei = rw
+robson = rw
+oneide = rw
+luciano = rw
+johni = rw
+
+[Gvc:/]
+rafael = rw
+paulo = rw
+ezequiel = rw
+everton = rw
+ilsonei = rw
+robson = rw
+oneide = rw
+luciano = rw
+sadi = rw
+
+
+[HUG:/]
+rafael = rw
+paulo = rw
+ezequiel = rw
+everton = rw
+ilsonei = rw
+robson = rw
+oneide = rw
+luciano = rw
+luiz = rw
+sadi = rw
+
+
+[Idapol:/]
+rafael = rw
+paulo = rw
+ezequiel = rw
+everton = rw
+ilsonei = rw
+robson = rw
+oneide = rw
+luciano = rw
+luiz = rw
+
+
+[IFolle:/]
+rafael = rw
+paulo = rw
+ezequiel = rw
+everton = rw
+ilsonei = rw
+robson = rw
+oneide = rw
+luciano = rw
+luiz = rw
+sadi = rw
+
+
+[JJ:/]
+rafael = rw
+paulo = rw
+ezequiel = rw
+everton = rw
+ilsonei = rw
+robson = rw
+oneide = rw
+luciano = rw
+sadi = rw
+luiz = rw
+
+
+[Kitimar:/]
+rafael = rw
+paulo = rw
+ezequiel = rw
+everton = rw
+ilsonei = rw
+robson = rw
+oneide = rw
+luciano = rw
+luiz = rw
+sadi = rw
+evandro = rw
+
+
+[Liones:/]
+rafael = rw
+paulo = rw
+ezequiel = rw
+everton = rw
+ilsonei = rw
+robson = rw
+oneide = rw
+luciano = rw
+
+
+[MaximoAlimentos:/]
+rafael = rw
+paulo = rw
+ezequiel = rw
+everton = rw
+ilsonei = rw
+robson = rw
+oneide = rw
+luciano = rw
+sadi = rw
+
+
+[Mezzaroba:/]
+rafael = rw
+paulo = rw
+ezequiel = rw
+everton = rw
+ilsonei = rw
+robson = rw
+oneide = rw
+luciano = rw
+sadi = rw
+luiz = rw
+
+
+[MHNET:/]
+rafael = rw
+paulo = rw
+ezequiel = rw
+everton = rw
+ilsonei = rw
+robson = rw
+oneide = rw
+luciano = rw
+
+
+[MicrosysSerial:/]
+rafael = rw
+paulo = rw
+ezequiel = rw
+everton = rw
+ilsonei = rw
+robson = rw
+oneide = rw
+luciano = rw
+
+
+[Multiaco:/]
+rafael = rw
+paulo = rw
+ezequiel = rw
+everton = rw
+ilsonei = rw
+robson = rw
+oneide = rw
+luciano = rw
+luiz = rw
+sadi = rw
+
+
+[NFeCapicom:/]
+rafael = rw
+paulo = rw
+ezequiel = rw
+everton = rw
+ilsonei = rw
+robson = rw
+oneide = rw
+luciano = rw
+
+
+[Oliveira:/]
+rafael = rw
+paulo = rw
+ezequiel = rw
+everton = rw
+ilsonei = rw
+robson = rw
+oneide = rw
+luciano = rw
+sadi = rw
+luiz = rw
+
+
+[PAF:/]
+rafael = rw
+paulo = rw
+ezequiel = rw
+everton = rw
+ilsonei = rw
+robson = rw
+oneide = rw
+luciano = rw
+
+
+[PDV_PAF:/]
+rafael = rw
+paulo = rw
+ezequiel = rw
+everton = rw
+ilsonei = rw
+robson = rw
+oneide = rw
+luciano = rw
+
+
+[PDV_Retaguarda:/]
+rafael = rw
+paulo = rw
+ezequiel = rw
+everton = rw
+ilsonei = rw
+robson = rw
+oneide = rw
+luciano = rw
+
+
+[PCP:/]
+rafael = rw
+paulo = rw
+ezequiel = rw
+everton = rw
+ilsonei = rw
+robson = rw
+oneide = rw
+luciano = rw
+
+
+[PDV:/]
+rafael = rw
+paulo = rw
+ezequiel = rw
+everton = rw
+ilsonei = rw
+robson = rw
+oneide = rw
+luciano = rw
+
+
+[PDV_Bematech:/]
+rafael = rw
+paulo = rw
+ezequiel = rw
+everton = rw
+ilsonei = rw
+robson = rw
+oneide = rw
+luciano = rw
+
+
+[PDV_Microsys:/]
+rafael = rw
+paulo = rw
+ezequiel = rw
+everton = rw
+ilsonei = rw
+robson = rw
+oneide = rw
+luciano = rw
+luiz = rw
+sadi = rw
+
+
+[PDV_Rutzen:/]
+rafael = rw
+paulo = rw
+ezequiel = rw
+everton = rw
+ilsonei = rw
+robson = rw
+oneide = rw
+luciano = rw
+
+
+[Reafrio:/]
+rafael = rw
+paulo = rw
+ezequiel = rw
+everton = rw
+ilsonei = rw
+robson = rw
+oneide = rw
+luciano = rw
+sadi = rw
+luiz = rw
+
+
+[Rotoplast:/]
+rafael = rw
+paulo = rw
+ezequiel = rw
+everton = rw
+ilsonei = rw
+robson = rw
+oneide = rw
+luciano = rw
+sadi = rw
+luiz = rw
+
+
+[Savan:/]
+rafael = rw
+paulo = rw
+ezequiel = rw
+everton = rw
+ilsonei = rw
+robson = rw
+oneide = rw
+luciano = rw
+luiz = rw
+
+
+[ServerSocketPalm:/]
+rafael = rw
+paulo = rw
+ezequiel = rw
+everton = rw
+ilsonei = rw
+robson = rw
+oneide = rw
+luciano = rw
+
+
+[Trennepohl:/]
+rafael = rw
+paulo = rw
+ezequiel = rw
+everton = rw
+ilsonei = rw
+robson = rw
+oneide = rw
+luciano = rw
+sadi = rw
+luiz = rw
+
+
+[SK:/]
+rafael = rw
+paulo = rw
+ezequiel = rw
+everton = rw
+ilsonei = rw
+robson = rw
+oneide = rw
+luciano = rw
+sadi = rw
+luiz = rw
+evandro = rw
+johni = rw
+
+[Tozzo:/]
+rafael = rw
+paulo = rw
+ezequiel = rw
+everton = rw
+ilsonei = rw
+robson = rw
+oneide = rw
+luciano = rw
+sadi = rw
+luiz = rw
+johni = rw
+
+[TripoOeste:/]
+rafael = rw
+paulo = rw
+ezequiel = rw
+everton = rw
+ilsonei = rw
+robson = rw
+oneide = rw
+luciano = rw
+sadi = rw
+
+
+[Tucano:/]
+rafael = rw
+paulo = rw
+ezequiel = rw
+everton = rw
+ilsonei = rw
+robson = rw
+oneide = rw
+luciano = rw
+luiz = rw
+sadi = rw
+newton = rw
+johni = rw
+
+[RPM:/]
+rafael = rw
+paulo = rw
+ezequiel = rw
+everton = rw
+ilsonei = rw
+robson = rw
+oneide = rw
+luciano = rw
+sadi = rw
+luiz = rw
+evandro = rw
+maciel = rw
+johni = rw
+
+[Henn:/]
+rafael = rw
+paulo = rw
+ezequiel = rw
+everton = rw
+ilsonei = rw
+robson = rw
+oneide = rw
+luciano = rw
+sadi = rw
+luiz = rw
+
+
+[FrigoVale:/]
+rafael = rw
+paulo = rw
+ezequiel = rw
+everton = rw
+ilsonei = rw
+robson = rw
+oneide = rw
+luciano = rw
+sadi = rw
+
+
+[Frizon:/]
+rafael = rw
+paulo = rw
+ezequiel = rw
+everton = rw
+ilsonei = rw
+robson = rw
+oneide = rw
+luciano = rw
+luiz = rw
+sadi = rw
+
+
+[Biasi:/]
+rafael = rw
+paulo = rw
+ezequiel = rw
+everton = rw
+ilsonei = rw
+robson = rw
+oneide = rw
+luciano = rw
+sadi = rw
+luiz = rw
+evandro = rw
+maciel = rw
+johni = rw
+
+[BalaioPDV:/]
+paulo = rw
+ezequiel = rw
+everton = rw
+ilsonei = rw
+robson = rw
+oneide = rw
+luciano = rw
+sadi = rw
+rafael = rw
+
+
+[BalaioRetaguarda:/]
+rafael = rw
+paulo = rw
+ezequiel = rw
+everton = rw
+ilsonei = rw
+robson = rw
+oneide = rw
+luciano = rw
+sadi = rw
+luiz = rw
+
+
+[Bartolomey:/]
+rafael = rw
+paulo = rw
+ezequiel = rw
+everton = rw
+ilsonei = rw
+robson = rw
+oneide = rw
+luciano = rw
+sadi = rw
+
+
+[BestDistribuidora:/]
+rafael = rw
+paulo = rw
+ezequiel = rw
+everton = rw
+ilsonei = rw
+robson = rw
+oneide = rw
+luciano = rw
+sadi = rw
+luiz = rw
+maciel = rw
+evandro = rw
+
+
+[Brasplast:/]
+rafael = rw
+paulo = rw
+ezequiel = rw
+everton = rw
+ilsonei = rw
+robson = rw
+oneide = rw
+luciano = rw
+sadi = rw
+
+
+[BancosCobranca:/]
+rafael = rw
+paulo = rw
+ezequiel = rw
+everton = rw
+ilsonei = rw
+robson = rw
+oneide = rw
+luciano = rw
+
+
+[BancosCobranca_D7:/]
+rafael = rw
+paulo = rw
+ezequiel = rw
+everton = rw
+ilsonei = rw
+robson = rw
+oneide = rw
+luciano = rw
+
+
+[WebBrasplastNovo:/]
+paulo = rw
+robson = rw
+alexandre = rw
+johni = rw
+
+[Tecsystem:/]
+rafael = rw
+paulo = rw
+ezequiel = rw
+everton = rw
+ilsonei = rw
+robson = rw
+oneide = rw
+luciano = rw
+sadi = rw
+luiz = rw
+
+
+[NFE_1:/]
+
+
+[Textil:/]
+ezequiel = rw
+ilsonei = rw
+oneide = rw
+luciano = rw
+sadi = rw
+luiz = rw
+evandro = rw
+johni = rw
+
+[WebTextilOeste:/]
+alexandre = rw
+oneide = rw
+
+[MsysERP:/]
+rafael = rw
+paulo = rw
+ezequiel = rw
+everton = rw
+ilsonei = rw
+robson = rw
+oneide = rw
+luiz = rw
+sadi = rw
+luciano = rw
+
+
+[Avibrasil:/]
+rafael = rw
+paulo = rw
+ezequiel = rw
+everton = rw
+ilsonei = rw
+robson = rw
+oneide = rw
+luciano = rw
+luiz = rw
+sadi = rw
+evandro = rw
+maciel = rw
+johni = rw
+
+
+[Msys1:/]
+rafael = rw
+paulo = rw
+luciano = rw
+
+
+[FM_Rep:/]
+rafael = rw
+paulo = rw
+ezequiel = rw
+everton = rw
+ilsonei = rw
+robson = rw
+oneide = rw
+luciano = rw
+luiz = rw
+
+
+[1001Utilidades:/]
+rafael = rw
+paulo = rw
+ezequiel = rw
+everton = rw
+ilsonei = rw
+robson = rw
+oneide = rw
+luciano = rw
+luiz = rw
+sadi = rw
+
+
+[MsysPdv:/]
+ezequiel = rw
+luiz = rw
+maciel = rw
+oneide = r
+redmine = r
+johni = rw
+
+
+[WebPadrao:/]
+paulo = rw
+robson = rw
+
+
+[WebMsysLib:/]
+alexandre = rw
+oneide = rw
+
+
+[WebPedidoPadrao:/]
+paulo = rw
+robson = rw
+
+
+[WebFrizon:/]
+paulo = rw
+robson = rw
+oneide = rw
+
+
+[DelphiMantis:/]
+rafael = rw
+oneide = rw
+
+
+[Movel_Tecsystem_Flex:/]
+oneide = rw
+johni = rw
+
+[MsysTecMVC:/]
+rafael = rw
+ezequiel = rw
+
+
+[BackupNFe:/]
+ezequiel = r
+ilsonei = r
+oneide = rw
+luciano = r
+luiz = r
+sadi = r
+alexandre = rw
+johni = rw
+
+[Tecnobag:/]
+ilsonei = rw
+sadi = rw
+
+
+[SiteMicrosys:/]
+alexandre = rw
+oneide = rw
+
+[CursoDelphi:/]
+rafael = rw
+luciano = rw
+oneide = rw
+
+
+[Publico:/]
+rafael = rw
+paulo = rw
+ezequiel = rw
+everton = rw
+ilsonei = rw
+robson = rw
+oneide = rw
+luciano = rw
+luiz = rw
+sadi = rw
+newton = rw
+evandro = rw
+msys = rw
+leandro = rw
+alexandre = rw
+maciel = rw
+johni = rw
+gilvanez = r
+
+[WebHenn:/]
+paulo = rw
+robson = rw
+
+
+[WebHolz:/]
+paulo = rw
+robson = rw
+johni = rw
+alexandre = rw
+
+[ServicoPedidosVendaMsys:/]
+rafael = rw
+paulo = rw
+robson = rw
+
+
+[ServicoMsys:/]
+paulo = rw
+robson = rw
+
+
+[Newton:/]
+rafael = rw
+newton = r
+sadi = r
+robson = rw
+ezequiel = rw
+luiz = rw
+oneide = rw
+alexandre = rw
+
+
+[SManager:/]
+robson = rw
+paulo = r
+
+
+[ModeloComprasPadrao:/]
+rafael = rw
+sadi = rw
+
+
+[WebMsysServerJAVA:/]
+oneide = rw
+
+
+[MicrosysWeb:/]
+robson = rw
+paulo = rw
+
+
+[MsysPesquisas:/]
+ilsonei = rw
+oneide = rw
+luciano = rw
+luiz = rw
+sadi = rw
+newton = rw
+johni = rw
+ezequiel = rw
+
+
+[WebMsysIndustrial:/]
+alexandre = rw
+luiz = r
+oneide = rw
+
+[acbrmsys:/]
+ezequiel = rw
+ilsonei = r
+oneide = rw
+luciano = rw
+luiz = rw
+sadi = rw
+maciel = rw
+evandro = rw
+johni = rw
+ilsonei = r
+gilvanez = r
+
+[MsysComponentes:/]
+rafael = rw
+robson = rw
+
+
+[MicrosysNFe2:/]
+rafael = rw
+paulo = rw
+ezequiel = rw
+everton = rw
+ilsonei = rw
+robson = rw
+oneide = rw
+luciano = rw
+luiz = rw
+sadi = rw
+newton = rw
+leandro = rw
+maciel = rw
+evandro = rw
+johni = rw
+
+[MsysLicensa:/]
+rafael = rw
+msys = rw
+
+
+[msys_industrial:/]
+sadi = rw
+rafael = rw
+ezequiel = rw
+everton = rw
+ilsonei = rw
+robson = rw
+oneide = rw
+luiz = rw
+luciano = rw
+paulo = rw
+
+
+[SavanTestePaulo:/]
+paulo = rw
+
+[eBooks:/]
+ezequiel = rw
+ilsonei = rw
+oneide = rw
+luciano = rw
+luiz = rw
+sadi = rw
+evandro = rw
+maciel = rw
+johni = rw
+alexandre = rw
+
+
+
+[MsysIndustrial:/]
+rafael = rw
+paulo = rw
+ezequiel = rw
+everton = rw
+ilsonei = rw
+robson = rw
+oneide = rw
+luciano = rw
+luiz = rw
+sadi = rw
+newton = rw
+evandro = rw
+maciel = rw
+johni = rw
+gilvanez = r
+
+[Msys:/]
+paulo = rw
+
+
+[IrmaosFolle:/]
+sadi = rw
+oneide = rw
+luiz = rw
+luciano = rw
+ilsonei = rw
+everton = rw
+ezequiel = rw
+paulo = rw
+evandro = rw
+maciel = rw
+johni = rw
+
+
+[MsysComercial:/]
+rafael = rw
+ezequiel = rw
+everton = rw
+robson = rw
+oneide = rw
+luciano = rw
+luiz = rw
+sadi = rw
+ilsonei = r
+evandro = rw
+maciel = rw
+alexandre = rw
+johni = rw
+gilvanez = r
+
+[MsysLoja:/]
+rafael = rw
+paulo = rw
+ezequiel = rw
+everton = rw
+ilsonei = rw
+robson = rw
+oneide = rw
+luciano = rw
+luiz = rw
+sadi = rw
+evandro = rw
+maciel = rw
+johni = rw
+
+[ConstrutoraOliveira:/]
+rafael = rw
+paulo = rw
+ezequiel = rw
+everton = rw
+ilsonei = rw
+robson = rw
+oneide = rw
+luciano = rw
+luiz = rw
+sadi = rw
+evandro = rw
+johni = rw
+
+[Angellira:/]
+rafael = rw
+paulo = rw
+ezequiel = rw
+everton = rw
+ilsonei = rw
+robson = rw
+oneide = rw
+luciano = rw
+luiz = rw
+sadi = rw
+
+
+[EuroAlimentos:/]
+rafael = rw
+paulo = rw
+ezequiel = rw
+everton = rw
+ilsonei = rw
+robson = rw
+oneide = rw
+luciano = rw
+luiz = rw
+sadi = rw
+evandro = rw
+johni = rw
+
+[Frigovale:/]
+rafael = rw
+paulo = rw
+ezequiel = rw
+everton = rw
+ilsonei = rw
+robson = rw
+oneide = rw
+luciano = rw
+luiz = rw
+sadi = rw
+
+
+[MsysPdvAntigo:/]
+rafael = rw
+paulo = rw
+ezequiel = rw
+everton = rw
+ilsonei = rw
+robson = rw
+oneide = rw
+luciano = rw
+luiz = rw
+sadi = rw
+johni = rw
+
+[SVNManager:/]
+robson = rw
+
+
+[MsysAndroid:/]
+oneide = rw
+johni = rw
+
+[GerenciadorEstoqueWin98:/]
+rafael = rw
+paulo = rw
+ezequiel = rw
+everton = rw
+ilsonei = rw
+robson = rw
+oneide = rw
+luciano = rw
+luiz = rw
+sadi = rw
+newton = rw
+leandro = rw
+johni = rw
+
+[CTe:/]
+ezequiel = rw
+ilsonei = r
+oneide = r
+luciano = r
+luiz = rw
+sadi = rw
+alexandre = r
+evandro = r
+maciel = rw
+johni = rw
+gilvanez = r
+
+
+[MsysBackup:/]
+ezequiel = rw
+maciel = rw
+johni = rw
+
+[old_IFolle:/]
+paulo = rw
+luciano = rw
+
+
+[Sindicato:/]
+rafael = rw
+
+
+[Framework:/]
+rafael = rw
+ezequiel = rw
+oneide = rw
+luiz = rw
+robson = rw
+sadi = rw
+msys = rw
+
+
+[Build:/]
+rafael = rw
+oneide = r
+luiz = r
+ezequiel = r
+
+
+[old_PDV_Microsys:/]
+ezequiel = rw
+
+[Brasplast:/]
+johni = rw
+
+[MsysNewton:/]
+rafael = rw
+ezequiel = rw
+robson = rw
+oneide = rw
+luiz = rw
+newton = rw
+alexandre = rw
+sadi = rw
+msys = rw
+evandro = rw
+
+
+[old_Frizon:/]
+luciano = rw
+
+
+[Asgard:/]
+robson = rw
+ezequiel = rw
+johni = rw
+oneide = r
+
+[Harmonia:/]
+sadi = rw
+luciano = rw
+evandro = rw
+johni = rw
+
+
+[msys:/]
+sadi = rw
+ezequiel = rw
+
+
+[Notify:/]
+robson = rw
+alexandre = rw
+johni = rw
+
+[ServerPalm:/]
+oneide = rw
+johni = rw
+
+[ProjetoX:/]
+ezequiel = rw
+robson = rw
+alexandre = rw
+johni = rw
+
+[x-labs:/]
+ezequiel = rw
+ilsonei = rw
+robson = rw
+oneide = rw
+luciano = rw
+luiz = rw
+sadi = rw
+alexandre = rw
+evandro = rw
+maciel = rw
+johni = rw
+
+
+[MsysDelphiLib:/]
+ezequiel = rw
+johni = rw
+
+
+[MRepl:/]
+luiz = rw
+johni = rw
+
+[MsysLink:/]
+ezequiel = rw
+alexandre = rw
+johni = rw
+
+[MsysFramework:/Delphi/Library]
+luiz = rw
+oneide = rw
+
+[MsysFramework:/]
+ezequiel = rw
+johni = rw
+oneide = r
+maciel = rw
+evandro = rw
+sadi = r
+luciano = r
+ilsonei = r
+luiz = r
+gilvanez = r
+
+[WebMsysComercial:/]
+oneide = rw
+alexandre = rw
+johni = rw
+gilvanez = r

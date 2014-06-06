@@ -7,7 +7,7 @@ $twig = Build::initTwig();
 
 $template = $twig->loadTemplate('permissions.twig');
 
-$permissions = new Permissions('');
+$permissions = new Permissions('config/projects');
 
 echo $template->render( array( 'permissions' => $permissions->listPermissions() ) );
 

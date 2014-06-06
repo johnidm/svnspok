@@ -29,6 +29,7 @@ if (isset($_POST['insert']))	{
 			'user' => $user['name'],
 			'password' => $user['password'],
 			'login' => $user['login'] ) );	
+
 	
 } else if (isset($_POST['delete']))	{
 	$user = $_POST['user'];

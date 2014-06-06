@@ -10,8 +10,13 @@
 
 		<h2>{{ permission.projet }}</h2>
 
-	    {% for user in permission %}
+	    {% for user in permission.users %}
 	        <h4>{{ user.name }}</h4>
+
+	        <h6>{% if user.read  %} leitura {% endif %}</h6>
+	        <h6>{% if user.write %} escrita {% endif %}</h6>
+	        
+
 	    {% else %}
 	    	<h4>Usuario nao cadastrados para esse projeto</h4>
 	    {% endfor %}
