@@ -15,12 +15,13 @@
 
 body {
 	background-color: #f5f5f5; 
+	margin: 0 0 60px;
 	/*overflow-y:hidden;  destiva a barra de rolagem */		
 }
 
-html, body {
-	height: 100%;
-	width: 100%;
+html {
+	position: relative;
+	min-height: 100%;
 }
 
 nav {
@@ -30,10 +31,9 @@ nav {
 
 header {
 	background-color: #373737;
-	color: white;
-
-	min-height: 130px;
+	color: white;	
 	height: 130px;
+	min-height: 130px;
 }
 
 article {       
@@ -51,7 +51,7 @@ footer {
 	margin: 0px; padding:0px;
 	text-align:center;
 
-	position: fixed ; 
+	position: absolute; 
     bottom: 0px;
 }
 
