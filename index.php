@@ -1,5 +1,10 @@
 <?php
 
+
+// http://blendup.com.br/10-exemplos-de-sites-c-efeito-parallax/
+// http://www.criarsitewix.com/categoria/sites-criados-no-wix/
+//
+
 require_once 'core/Build.php';
 require_once 'source/Configuration.php';
 

@@ -6,9 +6,8 @@
 
 {% block conteudo %} 
 
-http://html5doctor.com/html5-forms-introduction-and-new-attributes/
-
-	<form action="/users" method="post">
+	
+	<form action="users.php" method="post">
 		
 		{% if edit %}
 			<input type="hidden" name="user-edit" value="{{ user }}" />	
@@ -30,12 +29,13 @@ http://html5doctor.com/html5-forms-introduction-and-new-attributes/
 		<input type="submit" name="insert" value="Gravar">		
 		
 	</form>	
-
-	{% if not edit %}
 	
+	
+		
+	{% if not edit %}	
 	  	{% for user in users %}			
 
-			<form action="/users" method="post">
+			<form action="users.php" method="post">
 				<h3>{{ user.name }}</h3>
 			
 				<input type="hidden" name="user" value="{{ user.name }}" />
@@ -47,11 +47,6 @@ http://html5doctor.com/html5-forms-introduction-and-new-attributes/
 		{% else %}		
 			<h2>Nenhum usuario cadastrado</h3>
 		{% endfor %}
-	
-
 	{% endif %}
-	
-	<a href='/index'>Index</a>
-	<a href='/users'>User</a>
 
 {% endblock %}
