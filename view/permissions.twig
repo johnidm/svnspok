@@ -6,23 +6,43 @@ Usuarios
 
 {% block conteudo %} 
 
-{% for permission in permissions %}
+<div class="page-title">Cadastro de projetos</div>
 
-<h2>{{ permission.projet }}</h2>
+<div  class="page-container clearfix">
 
-{% for user in permission.users %}
-<span>{{ user.name }}</span>
+	
+	<div class="page-form-insert box-insert-project">
 
-<span>{% if user.read  %} leitura {% endif %}</span>
-<span>{% if user.write %} escrita {% endif %}</span>
+	<form action="permissions.php" method="post">
+		<div>
+			<label for="project">Projeto:</label>
+			<input id="project" type="text" name="project" value="{{ project }}" autofocus />	
+		</div>
 
-{% else %}
-<h4>Usuario nao cadastrados para esse projeto</h4>
-{% endfor %}
+		<div>
+				<input type="submit" name="insert" value="Gravar">		
+				<input type="submit" name="cancel" value="Cancelar">		
+		</div>
 
-{% else %}		
-<h2>Nenhum projeto cadastrado</h3>
-	{% endfor %}
+	</form>
+
+	</div>
+
+	<div class="page-form-list box-list-project">
+		{% for permission in permissions %}
+			<h2>{{ permission.projet }}</h2>
+		{% else %}		
+			<h2>Nenhum projeto cadastrado</h3>
+		{% endfor %}
+	</div>
 
 
-	{% endblock %}
+
+</div>
+
+{% endblock %}
+
+
+
+
+
