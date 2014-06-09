@@ -1,31 +1,28 @@
 {% extends 'layout.twig' %}
 
 {% block titulo %} 
-	Usuarios 
+Usuarios 
 {% endblock %}
 
 {% block conteudo %} 
 
-	{% for permission in permissions %}
+{% for permission in permissions %}
 
-		<h2>{{ permission.projet }}</h2>
+<h2>{{ permission.projet }}</h2>
 
-	    {% for user in permission.users %}
-	        <h4>{{ user.name }}</h4>
+{% for user in permission.users %}
+<span>{{ user.name }}</span>
 
-	        <h6>{% if user.read  %} leitura {% endif %}</h6>
-	        <h6>{% if user.write %} escrita {% endif %}</h6>
-	        
+<span>{% if user.read  %} leitura {% endif %}</span>
+<span>{% if user.write %} escrita {% endif %}</span>
 
-	    {% else %}
-	    	<h4>Usuario nao cadastrados para esse projeto</h4>
-	    {% endfor %}
+{% else %}
+<h4>Usuario nao cadastrados para esse projeto</h4>
+{% endfor %}
 
-	{% else %}		
-		<h2>Nenhum projeto cadastrado</h3>
+{% else %}		
+<h2>Nenhum projeto cadastrado</h3>
 	{% endfor %}
 
-	<a href='/index'>Index</a>
-	
 
-{% endblock %}
+	{% endblock %}

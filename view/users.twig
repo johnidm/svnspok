@@ -1,57 +1,70 @@
 {% extends 'layout.twig' %}
 
 {% block titulo %} 
-	Usuarios 
+	Usuarios
 {% endblock %}
 
 {% block conteudo %} 
 
-http://html5doctor.com/html5-forms-introduction-and-new-attributes/
+<div class="box-title">Cadastro de usuários</div>
 
-	<form action="/users" method="post">
+<div  class="box-user clearfix">
+
+	<div class="box-form-user box-center">
+
+		<form action="users.php" method="post">
 		
-		{% if edit %}
-			<input type="hidden" name="user-edit" value="{{ user }}" />	
-		{% endif %}
+			{% if edit %}
+				<input type="hidden" name="user-edit" value="{{ user }}" />	
+			{% endif %}
 
-		<label>
-			Usuário <input type="text" name="user" value="{{ user }}" autofocus />	
-		</label>
+			<div>
+				<label for="user">Usuário:</label>
+				<input id="user" type="text" name="user" value="{{ user }}" autofocus />	
+			</div>
 
-		<label>
-			Senha <input type="text" name="password" value="{{ password }}" />
-		</label>
-		
-		<label>
-			<input type="checkbox" name="login" value="true" {% if login %} checked {% endif %} />
-			Login
-		</label>		
-	
-		<input type="submit" name="insert" value="Gravar">		
-		
-	</form>	
+			<div>
+				<label for="password">Senha:</label>
+				<input id="password" type="text" name="password" value="{{ password }}" />						
+			</div>
 
-	{% if not edit %}
-	
-	  	{% for user in users %}			
+			<div>
+				<label for="confirnpassword">Confirmar Senha:</label>
+				<input id="confirnpassword" type="text" name="confirnpassword" value="{{ password }}" />						
+			</div>		
 
-			<form action="/users" method="post">
-				<h3>{{ user.name }}</h3>
+			<div>
+				<input id="login" type="checkbox" name="login" value="true" {% if login %} checked {% endif %} />
+				<label for="login">Login:</label>							
+			</div>
+
+			<div>
+				<input type="submit" name="insert" value="Gravar">		
+			</div>
+
+		</form>	           
+
+	</div>	
+
+	<div class="box-list-form-users">
+		{% if not edit %}	
+		{% for user in users %}			
+
+		<form action="users.php" method="post">
+			<h3>{{ user.name }}</h3>
 			
-				<input type="hidden" name="user" value="{{ user.name }}" />
+			<input type="hidden" name="user" value="{{ user.name }}" />
 			
-				<input type="submit" name="edit"   value="Editar" /> 
-				<input type="submit" name="delete" value="Deletar" /> 			
-			</form>
-			
+			<input type="submit" name="edit"   value="Editar" /> 
+			<input type="submit" name="delete" value="Deletar" /> 			
+		</form>
+
 		{% else %}		
-			<h2>Nenhum usuario cadastrado</h3>
-		{% endfor %}
-	
+		<h2>Nenhum usuario cadastrado</h3>
+			{% endfor %}
+			{% endif %}
 
-	{% endif %}
-	
-	<a href='/index'>Index</a>
-	<a href='/users'>User</a>
+		</div>
+	</div>
 
 {% endblock %}
