@@ -35,7 +35,7 @@ form label {
 	font-size: 15px; 	
 }
 
-form input {
+form input[type=text] {
 
 	font-size: 15px; 
 	padding: 7px; 
@@ -52,12 +52,13 @@ form input {
 
 }
 	
-form input:focus {
+form input[type=text]:focus {
 	background-color:#E7E8E7;  
     border: 2px solid #1abc9c;
  
 }
 
+/*
 form input[type=submit]  {
 	background-color: black;	
 }
@@ -66,3 +67,4 @@ form input[type=submit]:hover {
 
 	background-color: red;	
 }
+*/

@@ -5,6 +5,11 @@
 // https://gist.github.com/martinbean/1855032
 // http://jsfiddle.net/mikeymagic/BLx9u/
 // http://jsfiddle.net/panique/pqDQB/35/
+// http://code.stephenmorley.org/html-and-css/styling-checkboxes-and-radio-buttons/
+// http://devgrow.com/super-simple-css-buttons/
+// http://purecss.io/buttons/
+// http://www.paulund.co.uk/css-buttons-with-icons-but-no-images
+
 
 
 require_once 'core/Build.php';
